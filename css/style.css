@@ -20,16 +20,12 @@ body{
     font-family: 'Popins',  sans-serif;
 }
 
-.banner{
-    background: radial-gradient(var(--cor-padrao-hover), var(--cor-padrao));
-}
-
 .banner .roll{
     margin-top: 70px;
 }
 
 .container{
-    max-width: 1300px;
+    /* max-width: 1300px; */
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
@@ -70,16 +66,16 @@ p{
 }
 
 .roll{
-    display: flex;
+    display: inline-block;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
-.col-2{
+/* .col-2{
     flex-basis: 50%;
     min-width: 300px;
-}
+} */
 
 .col-2 img{
     max-width: 100%;
@@ -90,11 +86,12 @@ p{
     font-size: 50px;
     line-height: 60px;
     margin: 25px 0px;
+    color: var(--cor-fonte);
 }
 
 .col-2 p{
     font-weight: 600;
-    color: var(--cor-btn-fonte);
+    color: var(--cor-fonte);
 }
 
 .btn{
