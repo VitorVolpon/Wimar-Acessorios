@@ -10,7 +10,7 @@
     --cor-fonte: white;
     --cor-fonte-p: grey;
     --cor-btn: #160e0ec9;
-    --cor-btn-hover: green;
+    --cor-btn-hover: blue;
     --cor-btn-fonte: black;
     --cor-fonte-corpo: grey;
     --cor-fonte-corpo-leve: #777;
@@ -70,27 +70,31 @@ p{
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
+    margin: 100px;
 }
 
-/* .col-2{
+.col-2{
     flex-basis: 50%;
-    min-width: 300px;
-} */
+    /* background-color: #ff9a03; */
+}
 
-.col-2 img{
+/* .col-2 img{
     max-width: 100%;
     padding: 50px 0px;
-}
+} */
 
 .col-2 h1{
-    font-size: 50px;
-    line-height: 60px;
+    font-size: 100px;
+    font-weight: lighter;
+    line-height: 100px;
     margin: 25px 0px;
     color: var(--cor-fonte);
 }
 
 .col-2 p{
-    font-weight: 600;
+    font-weight: 200;
+    line-height: 130%;
+    font-size: xx-large;
     color: var(--cor-fonte);
 }
 
@@ -98,8 +102,8 @@ p{
     text-decoration: none;
     color: var(--cor-fonte);
     background: var(--cor-btn);
-    padding: 8px 30px;
-    margin: 30px 0px;
+    padding: 15px 30px;
+    margin: 100px 0px;
     border-radius: 30px;
     transition: background 0.5s;
 }
@@ -107,5 +111,10 @@ p{
 .btn:hover{
     background: var(--cor-btn-hover);
     color: var(--cor-btn-fonte);
+}
+
+
+.produtos{
+    text-align: center;
 }
 
