@@ -58,7 +58,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     /* color:var(--cor-fonte) */
-    color: aqua;
+    color: rgb(0, 0, 0);
 }
 
 .banner p {
@@ -69,19 +69,19 @@ p{
     color: var(--cor-fonte-p);
 }
 
-.row{
+.texto-banner{
     display: inline-block;
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-around;
     margin: 100px;
-}
-
-.col-2{
     flex-basis: 50%;
 }
 
-.col-2 h1{
+/* .col-2{
+} */
+
+.texto-banner h1{
     font-size: 100px;
     font-weight: lighter;
     line-height: 100px;
@@ -89,7 +89,7 @@ p{
     color: var(--cor-fonte);
 }
 
-.col-2 p{
+.texto-banner p{
     font-weight: 200;
     line-height: 130%;
     font-size: xx-large;
